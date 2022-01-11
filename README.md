@@ -18,7 +18,16 @@ Install this plugin under `local`.
 - Add this user to Authorised users for webservice "BIRD Metadata Management"
 - create token for that user and Webservice "BIRD Metadata Management"
 
-##
+## Access
+You can use the following URL: `<base-url>/local/bird_mdm/server.php/<endpoint>/`
+
+Valid endpoints are:
+  - bird_academy
+  - bird_program
+  - bird_module
+  - bird_course.
+
+You will have to send your token via HTTP Header `Authorization: Token <token>`.
 
 ## License ##
 

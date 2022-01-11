@@ -219,7 +219,16 @@ class server extends webservice_base_server {
             die;
         }
 
-        return $headers['HTTP_AUTHORIZATION'];
+        $result = preg_match('/^Token (.*)$/', $headers['HTTP_AUTHORIZATION'], $matches);
+
+        if (0 === $result) {
+            $ex = new \moodle_exception('invalid auth token format', 'local_bird_mdm', '');
+            $this->send_error($ex, 403);
+
+            die;
+        }
+
+        return $matches[1];
     }
 
     private function get_endpoint() {
