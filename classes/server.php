@@ -237,7 +237,7 @@ class server extends webservice_base_server {
         $endpoint = trim($endpoint, '/');
 
         if (!in_array($endpoint, self::SUPPORTED_ENDPOINTS)) {
-            $ex = new \moodle_exception('invalid bird endpoint', 'local_bird_mdm', '');
+            $ex = new \moodle_exception('invalid bird endpoint', 'local_bird_mdm', '', null, $endpoint);
             $this->send_error($ex, 400);
 
             die;
