@@ -1,0 +1,28 @@
+<import xmlns="https://www.mathplan.de/moses/xsd/default" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <list type="bird_course">
+        <bird_course>
+            <id>1</id>
+            <name>Curriculare Vorgaben nach Bundesländern</name>
+            <academyId>1</academyId>
+            <lectureType>Vorlesung</lectureType>
+        </bird_course>
+        <bird_course>
+            <id>2</id>
+            <name>Spracherwerbstheorien</name>
+            <academyId>1</academyId>
+            <lectureType>Vorlesung</lectureType>
+        </bird_course>
+        <bird_course>
+            <id>3</id>
+            <name>Mehrsprachige Diskussionen</name>
+            <academyId>1</academyId>
+            <lectureType>Vorlesung</lectureType>
+        </bird_course>
+        <bird_course>
+            <id>4</id>
+            <name>Mehrsprachige Kompetenzen</name>
+            <academyId>1</academyId>
+            <lectureType>Vorlesung</lectureType>
+        </bird_course>
+    </list>
+</import>

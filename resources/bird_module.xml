@@ -1,0 +1,20 @@
+<import xmlns="https://www.mathplan.de/moses/xsd/default" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <list type="bird_module">
+        <bird_module>
+            <id>1</id>
+            <name>Professionswissen für Mehrsprachigkeit &amp; Interkulturalität: Fortbildung</name>
+            <academyId>1</academyId>
+            <formOfWork>Hybrid</formOfWork>
+            <birdCourseId>1</birdCourseId>
+            <birdCourseId>2</birdCourseId>
+            <birdCourseId>3</birdCourseId>
+        </bird_module>
+        <bird_module>
+            <id>2</id>
+            <name>Professionswissen für Mehrsprachigkeit &amp; Interkulturalität: Aufgabenpool/Datenbank</name>
+            <academyId>1</academyId>
+            <formOfWork>Hybrid</formOfWork>
+            <birdCourseId>4</birdCourseId>
+        </bird_module>
+    </list>
+</import>
