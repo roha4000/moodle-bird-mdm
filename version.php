@@ -24,8 +24,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$plugin->version   = 2022011400;
+$plugin->requires  = 2020061500;
 $plugin->component = 'local_bird_mdm';
 $plugin->release   = '0.1.3';
-$plugin->version   = 2022011100;
-$plugin->requires  = 2020061500;
 $plugin->maturity  = MATURITY_BETA;
