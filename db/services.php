@@ -17,20 +17,20 @@
 /**
  * External functions and services provided by the plugin are declared here.
  *
- * @package     local_bird_mdm
- * @category    external
- * @copyright   2022 Roland Hager <kontakt@roland-hager.de>
- * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package   local_bird_mdm
+ * @category  external
+ * @copyright 2022 Roland Hager <kontakt@roland-hager.de>
+ * @license   https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
 $services = [
     'BIRD Metadata Management' => [
-        'functions' => [],
-        'shortname' => 'bird',
-        'enabled' => true,
+        'functions'     => [],
+        'shortname'     => 'bird',
+        'enabled'       => true,
         'downloadfiles' => false,
-        'uploadfiles' => false,
+        'uploadfiles'   => false,
     ],
 ];
