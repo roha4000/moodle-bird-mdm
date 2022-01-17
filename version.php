@@ -17,15 +17,15 @@
 /**
  * Plugin version and other meta-data are defined here.
  *
- * @package     local_bird_mdm
- * @copyright   2022 Roland Hager <kontakt@roland-hager.de>
- * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package   local_bird_mdm
+ * @copyright 2022 Roland Hager <kontakt@roland-hager.de>
+ * @license   https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
+$plugin->version   = 2022011400;
+$plugin->requires  = 2020061500;
 $plugin->component = 'local_bird_mdm';
-$plugin->release = '0.1.3';
-$plugin->version = 2022011100;
-$plugin->requires = 2020061500;
-$plugin->maturity = MATURITY_BETA;
+$plugin->release   = '0.1.3';
+$plugin->maturity  = MATURITY_BETA;

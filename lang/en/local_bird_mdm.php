@@ -17,13 +17,13 @@
 /**
  * Plugin strings are defined here.
  *
- * @package     local_bird_mdm
- * @category    string
- * @copyright   2022 Roland Hager <kontakt@roland-hager.de>
- * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package   local_bird_mdm
+ * @category  string
+ * @copyright 2022 Roland Hager <kontakt@roland-hager.de>
+ * @license   https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
 $string['webservice/bird:use'] = 'Access BIRD MDM API';
-$string['pluginname'] = 'BIRD Metadata Management API';
+$string['pluginname']          = 'BIRD Metadata Management API';

@@ -17,19 +17,18 @@
 /**
  * Plugin capabilities are defined here.
  *
- * @package     local_bird_mdm
- * @category    access
- * @copyright   2022 Roland Hager <kontakt@roland-hager.de>
- * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package   local_bird_mdm
+ * @category  access
+ * @copyright 2022 Roland Hager <kontakt@roland-hager.de>
+ * @license   https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
 $capabilities = [
-    'webservice/bird:use' => array(
-        'captype' => 'read',
+    'webservice/bird:use' => [
+        'captype'      => 'read',
         'contextlevel' => CONTEXT_SYSTEM,
-        'archetypes' => array(
-        ),
-    ),
+        'archetypes'   => [],
+    ],
 ];

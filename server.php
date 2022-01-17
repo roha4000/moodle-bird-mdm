@@ -18,9 +18,9 @@
 /**
  * RESTful web service entry point. The authentication is done via header tokens.
  *
- * @package    webservice_restful
- * @copyright  Matt Porritt <mattp@catalyst-au.net>
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package   webservice_restful
+ * @copyright Matt Porritt <mattp@catalyst-au.net>
+ * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 /**
@@ -29,18 +29,19 @@
 define('NO_DEBUG_DISPLAY', true);
 define('WS_SERVER', true);
 
-require('../../config.php');
-require_once("$CFG->dirroot/webservice/lib.php");
+require '../../config.php';
+require_once "$CFG->dirroot/webservice/lib.php";
 
 
 if (!webservice_protocol_is_enabled('rest')) {
-    header("HTTP/1.0 403 Forbidden");
-    debugging('The server died because the web services or the REST protocol are not enable',
-        DEBUG_DEVELOPER);
+    header('HTTP/1.0 403 Forbidden');
+    debugging(
+        'The server died because the web services or the REST protocol are not enable',
+        DEBUG_DEVELOPER
+    );
     die;
 }
 
 $server = new local_bird_mdm\server();
 $server->run();
 die;
-
